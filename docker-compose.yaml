@@ -1,0 +1,21 @@
+services:
+  nginx:
+    image: local-nginx
+    ports:
+      - "80:80"  # Changed 'eighty' to the actual port number
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf  # Fixed typo in file path
+    networks:
+      - nginx-network
+
+  python-app:
+    image: local-python-app
+    container_name: python_app
+    expose:
+      - "8000"  # Changed 'eight thousand' to the actual port number
+    networks:
+      - nginx-network
+
+networks:
+  nginx-network:
+    driver: bridge  # Fixed typo 'bridg'
