@@ -16,11 +16,9 @@ In this solution, the following tasks were completed:
 ## Solution Steps
 
 ### 1. Initial Setup
-1. **Cloning the Repository**
-   - Cloned the GitHub repository containing the `Dockerfiles`, `docker-compose.yml` file, and application code.
+1. Cloned the GitHub repository
 
-2. **Building Docker Images**
-   - Built Docker images locally for each service using the provided Dockerfiles.
+2. Built Docker images locally
    - Tagged the images as `local-nginx` and `local-python-app` to be referenced in `docker-compose.yml`.
 
 ### 2. Running the Docker Compose File
@@ -52,7 +50,15 @@ In this solution, the following tasks were completed:
 2. **Screenshots**
    - Included screenshots of:
      - The application running in the browser.
+       ![Successful_Result](https://github.com/user-attachments/assets/1003b56e-2bdd-4f9e-9a5d-cbf9658f5d29)
      - Nginx access logs showing successful requests.
+       ![Successful_nginx_logs](https://github.com/user-attachments/assets/27cd525c-cecc-4e5c-8090-f014a0e8ce57)
+     - AWS public IP
+       ![Successful_Result_AWS](https://github.com/user-attachments/assets/ac6c02dd-8938-4c43-b0bb-da930427ed6c)
 
-3. **Report**
-   - Documented the debugging steps and solution in a one-page report.
+
+3. **AWS public IP endpoint**
+   - `http://3.111.29.116`
+
+4. **Report**
+   - Go to `report.pdf`
