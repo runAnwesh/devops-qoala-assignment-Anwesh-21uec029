@@ -58,7 +58,7 @@ In this solution, the following tasks were completed:
 
 
 3. **AWS public IP endpoint**
-   - `http://3.111.29.116`
+   - `http://65.0.71.79`
 
 4. **Report**
    - Go to `report.pdf`
