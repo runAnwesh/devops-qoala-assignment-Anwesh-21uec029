@@ -54,7 +54,9 @@ In this solution, the following tasks were completed:
      - Nginx access logs showing successful requests.
        ![Successful_nginx_logs](https://github.com/user-attachments/assets/27cd525c-cecc-4e5c-8090-f014a0e8ce57)
      - AWS public IP
-       ![Successful_Result_AWS](https://github.com/user-attachments/assets/1fe9d5d1-c698-498a-aa3f-7514dae35ff2)
+       ![Successful_Result_AWS](https://github.com/user-attachments/assets/a8c0d9eb-56fc-4037-a54d-a121d7372136)
+
+       
 
 
 3. **AWS public IP endpoint**
